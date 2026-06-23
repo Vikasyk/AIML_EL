@@ -1,0 +1,34 @@
+# Smart Delivery & Traffic Management System
+# Pinned versions known to work together on Python 3.10 (Windows/Linux/Mac).
+# Install with:  py -3.10 -m pip install -r requirements.txt   (Windows)
+#           or:  python -m pip install -r requirements.txt
+
+# --- Core scientific stack ---
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.11.4
+
+# --- Machine learning ---
+scikit-learn==1.3.2
+xgboost==2.0.3
+shap==0.44.0
+
+# --- Graph / routing ---
+osmnx==1.9.3
+networkx==3.2.1
+
+# --- Visualisation ---
+matplotlib==3.8.2
+seaborn==0.13.0
+folium==0.15.1
+
+# --- Interactive dashboard (legacy Streamlit UI) ---
+streamlit==1.30.0
+streamlit-folium==0.18.0
+
+# --- React frontend API backend (FastAPI; see server.py) ---
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+requests==2.31.0
+
+# heapq, pickle, math, json are part of the Python standard library (no install needed).
